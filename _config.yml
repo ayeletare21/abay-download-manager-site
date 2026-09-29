@@ -1,0 +1,8 @@
+title: Abay Download Manager
+description: Official website, privacy policy, and support pages for Abay Download Manager.
+url: "https://ayeletare21.github.io"
+baseurl: "/abay-download-manager-site"
+markdown: kramdown
+permalink: pretty
+exclude:
+  - README.md

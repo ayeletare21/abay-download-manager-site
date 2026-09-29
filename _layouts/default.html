@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="dark">
+    <meta name="theme-color" content="#0b1017">
+    <meta name="description" content="{{ page.description | default: site.description | escape }}">
+    <title>{% if page.title %}{{ page.title | escape }} · {% endif %}{{ site.title | escape }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="brand" href="{{ '/' | relative_url }}" aria-label="Abay Download Manager home">
+          <span class="brand-mark" aria-hidden="true">A</span>
+          <span>Abay Download Manager</span>
+        </a>
+        <nav aria-label="Primary navigation">
+          <a href="{{ '/' | relative_url }}">Home</a>
+          <a href="{{ '/privacy/' | relative_url }}">Privacy</a>
+          <a href="{{ '/support/' | relative_url }}">Support</a>
+          <a href="{{ '/terms/' | relative_url }}">Terms</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main-content" class="shell page-content">
+      {{ content }}
+    </main>
+    <footer class="site-footer">
+      <div class="shell footer-inner">
+        <span>Abay Download Manager</span>
+        <span>Local-first download and media tools.</span>
+      </div>
+    </footer>
+  </body>
+</html>
