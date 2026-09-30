@@ -47,7 +47,7 @@ deliberately shares them or uses another external service independently.
 ## Browser extension and network observation
 
 The optional browser extension declares HTTP/HTTPS page and request access so
-it can offer the **ADM ↓** control on eligible media, build a compatible quality
+it can offer the **Download** control on eligible media, build a compatible quality
 catalog, associate cross-origin media requests with the active page or post,
 and coordinate compatible ordinary browser downloads.
 
