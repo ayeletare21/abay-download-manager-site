@@ -116,6 +116,12 @@ crash-upload service. The publisher does not sell or rent personal data obtained
 through ADM. If these practices change, the policy and store disclosures must
 be updated before the changed behavior ships.
 
+## Chrome Web Store Limited Use
+
+The use of information received through the Abay Download Manager browser
+extension will comply with the Chrome Web Store User Data Policy, including the
+Limited Use requirements.
+
 ## Diagnostics and support
 
 Diagnostic export is initiated by the user and is designed to omit URLs,
