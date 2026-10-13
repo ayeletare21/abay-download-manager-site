@@ -1,7 +1,7 @@
 # Abay Download Manager website
 
 Static GitHub Pages source for the Abay Download Manager product website,
-privacy policy, support content, and terms.
+privacy policy, open-source component information, support content, and terms.
 
 Publication fields were supplied and approved by the owner on September 29,
 2026. The policy and terms do not claim review or approval by a lawyer.
